@@ -25,6 +25,9 @@ const Home: React.FC = () => (
         每次在 Cloudflare Pages 上触发新的构建部署时，这里的版本号和构建时间都会变化。
         通过回滚到旧的部署，可以直观地看到信息恢复到旧版本。
       </p>
+      <p className="hint">
+        这是一个“新版本”示例，你可以在回滚时对比上一个版本的页面文案差异。
+      </p>
     </section>
 
     <section className="layout-grid">
